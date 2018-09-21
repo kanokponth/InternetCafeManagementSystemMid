@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Page1UserController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Pane prefHeight="464.0" prefWidth="408.0">
+         <children>
+            <Label fx:id="hour" layoutX="211.0" layoutY="130.0" prefHeight="21.0" prefWidth="89.0" text="-" />
+            <Label fx:id="money" layoutX="211.0" layoutY="175.0" prefHeight="21.0" prefWidth="89.0" text="-" />
+            <Button fx:id="start" layoutX="121.0" layoutY="391.0" mnemonicParsing="false" onAction="#back" prefHeight="34.0" prefWidth="153.0" text="logout" />
+            <Label fx:id="hour1" layoutX="197.0" layoutY="26.0" prefHeight="21.0" prefWidth="42.0" text="คุณ :" />
+            <Label fx:id="hour11" layoutX="54.0" layoutY="175.0" prefHeight="21.0" prefWidth="133.0" text="จำนวนเงินที่มี :" />
+            <Button layoutX="69.0" layoutY="232.0" mnemonicParsing="false" onAction="#toFoodPage" prefHeight="50.0" prefWidth="105.0" text="สั่งอาหาร" />
+            <Button layoutX="228.0" layoutY="232.0" mnemonicParsing="false" onAction="#addHourUserPopUp" prefHeight="50.0" prefWidth="105.0" text="เพิ่มชั่วโมง" />
+            <Button layoutX="145.0" layoutY="305.0" mnemonicParsing="false" onAction="#handlePopUpChangePasswordButtonOnClick" prefHeight="50.0" prefWidth="105.0" text="เปลียนรหัส" />
+            <Label fx:id="username" layoutX="264.0" layoutY="26.0" prefHeight="21.0" prefWidth="114.0" text="Label" />
+            <Label fx:id="hour12" layoutX="54.0" layoutY="140.0" prefHeight="21.0" prefWidth="133.0" text="จำนวนชั่วโมงที่มี :" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>

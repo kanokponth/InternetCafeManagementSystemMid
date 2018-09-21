@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="internet cafe:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/internet_cafe_jar</output-path>
+    <root id="archive" name="internet cafe.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="internet cafe" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-5.1.39.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
